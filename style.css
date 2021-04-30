@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: navy;
+  background-image: url(./images/tumblr_42bd2cf42acad0ece8aa53d5e124a97b_5fc1b27b_500.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  padding: 10%;
+  min-height: 100vh;
+}
+
+.owl-carousel {
+  overflow: hidden;
+}
+
+.container {
+  background: rgba(207, 127, 22, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(180, 112, 23, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+h2 {
+  padding-bottom: 1%;
+}
+
+h3::before,
+h3::after {
+  content: "-";
+}
+
+h3 {
+  color: navy;
+}
+
+q {
+  padding-top: 2%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  flex-basis: 50%;
+}
+
+.image {
+  border-radius: 60%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.owl-carousel .owl-item img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+}
